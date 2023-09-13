@@ -1,2 +1,57 @@
 // gren #c4d600
 // black #11111f
+
+.toolbar{
+   display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 100px;
+  background-color: #11111f;  
+  
+}
+.start{
+  width: 50%;
+  height: 100%;
+  margin-left: 10%;
+}
+.middle{
+  width: 50%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.end{
+  width: 50%;
+  height: 100%;
+  margin-right : 10%;
+}
+.logo{
+  width: 50%;
+  max-width: 200px;
+}
+.containerInput{
+
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  border-style: solid;
+  border-width: 1px;
+  border-color: #c4d600;  
+  gap: 2px;
+}
+.icon{
+  color: #c4d600;
+  display: flex;
+  margin-left: 5px;
+
+}
+.input{
+  width: 50%;
+  height: 30px;
+  border: none;
+  outline: none;
+  height: 30px; 
+  background: none;
+  color: #c4d600;
+  }
