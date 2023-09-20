@@ -24,7 +24,28 @@
 .end{
   width: 50%;
   height: 100%;
-  margin-right : 10%;
+  margin-right : 15%;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+
+  &__box{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 15%;
+
+    &__button{
+      background: none;
+      color: #c4d600;
+      border-style: none;
+      font-size: large;
+      cursor: pointer;
+    }
+
+  }
+
+
 }
 .logo{
   width: 50%;
