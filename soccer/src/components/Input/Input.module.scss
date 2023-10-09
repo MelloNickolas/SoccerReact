@@ -1,0 +1,25 @@
+.containerInput{
+
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    border-style: solid;
+    border-width: 1px;
+    border-color: #c4d600;  
+    gap: 2px;
+  }
+  .icon{
+    color: #c4d600;
+    display: flex;
+    margin-left: 5px;
+  
+  }
+  .input{
+    width: 50%;
+    height: 30px;
+    border: none;
+    outline: none;
+    height: 30px; 
+    background: none;
+    color: #c4d600;
+    }
